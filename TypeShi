@@ -221,8 +221,6 @@ task.wait(5)
 loadstring(game:HttpGet("https://github.com/Solzzzz1/notifying/blob/main/UICreateUp"))()
 
 
-local instructions = [[\nHOW TO USE\nScript:\nlocal Event = game.ReplicatedStorage.NotificationCards.Event\nEvent:Fire("Notify", "Mail")\nDIFFERENT ONE:\nEvent:Fire("Notify", {
-   Name = "Info",\nTitle = "DID YOU KNOW?";\nBody = "Anything goes here lmfao.";\nSound = "Ping";\nColor = Color3.fromRGB(89, 121, 81)\n}\n)
-]]
+local instructions = "\nHOW TO USE\nScript:\nlocal Event = game.ReplicatedStorage.NotificationCards.Event\nEvent:Fire('Notify', 'Mail')\nDIFFERENT ONE:\nEvent:Fire('Notify', {Name = 'Info',\nTitle = 'DID YOU KNOW?';\nBody = 'Anything goes here lmfao.';\nSound = 'Ping';\nColor = Color3.fromRGB(89, 121, 81)\n}\n)"
 
 warn(instructions)
