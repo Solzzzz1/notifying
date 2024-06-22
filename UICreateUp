@@ -336,7 +336,7 @@ local function VNMJIDG_fake_script() -- NotificationUI.Run
 	};
 	--]]
 	
-	local Config = require(Main.DefaultConfig);
+	local Config = require("DefaultConfig");
 	
 	
 	
